@@ -1,0 +1,16 @@
+{
+  "name": "puraland",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d assets"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://rk-codeflow.github.io/puraland",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
