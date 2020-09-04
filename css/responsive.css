@@ -1,0 +1,105 @@
+/*******************
+ 	small screen 
+ *********************/
+@media (max-width: 768px)  {
+	
+	.banner-text h5 {
+		font-size: 25px !important;
+		font-weight: 200 !important;
+
+	}
+
+	.banner-text h1 {
+		font-size: 28px !important;
+		font-weight: 600 !important;
+	}
+
+	.banner-box ul.social-icons {
+ 		display: none !important;
+ 	}
+
+ 	#navbar {
+ 		background: #000;
+ 		width: 100%;
+ 		position: absolute;
+ 		top: 80px;
+ 		left: 0;
+ 		z-index: 2;
+ 		padding-left: 0;
+ 		width: 100%;
+ 	}
+
+ 	br {
+ 		display: none;
+ 	}
+
+ 	.banner-box .banner-text {    
+	    top: 12% !important;
+	}
+	
+	/***** about ***********/
+	.about .about-us h4 {
+	    font-weight: 300;
+	    font-size: 28px !important;
+	    padding-top: 45px;
+	    padding-bottom: 20px;
+	    line-height: 40px;
+	}
+
+	.about-box {
+		margin-top: 15px;
+	}
+
+	.about-box .content {
+	    padding: 50px 15px !important;
+	}
+
+
+	/******** feature ***********/
+	.feature .feature-img {
+		display: none !important;
+	}
+
+	/******** serices ***********/
+	.service-3,
+	.service-4 {
+		margin-top: 15px !important;
+	}
+
+	/******** team ***********/
+	.team-member-overlay {
+	    
+	    overflow: hidden !important;
+	    height: 100%;
+	}
+}
+
+/*******************
+ 	large screen 
+ *********************/
+ @media (min-width: 769px) and (max-width: 991px) {
+ 	.banner-box ul.social-icons {
+ 		display: none !important;
+ 	}
+
+ 	.banner-box .banner-text {    
+	    top: 12% !important;
+	}
+
+ 	br {
+ 		display: none;
+ 	}
+
+ 	.banner-text h5 {
+		font-size: 28px !important;
+		font-weight: 400 !important;
+
+	}
+
+	.banner-text h1 {
+		font-size: 32px !important;
+		font-weight: 600 !important;
+	}
+ }
+
+ 
